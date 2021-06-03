@@ -1,0 +1,88 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+h1 h2 {
+    font-family: 'Raleway', sans-serif;
+}
+h3 h4 p{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.nav-item {
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    padding-right: 40px;
+    font-weight: 500;
+}
+.navbar {
+    padding: 1rem 5rem;
+}
+
+/* .navbar .navbar-link .active a{
+    color:coral;
+    text-transform:uppercase;
+} 
+.navbar-nav .navbar-link a:hover{
+    color:coral;
+} */
+.main {
+    margin:0 10%;
+}
+.main .intro .title-text{
+    padding-bottom:10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.intro h1{
+    font-weight:bold;
+}
+.main .col-lg-6{
+    padding:5rem 5rem;
+}
+.main .intro h3::after{
+    content:"";
+    height:2px;
+    width:295px;
+    background:black;
+    display:inline-block;
+    margin-left: 3%;
+}
+.icons{
+    list-style: none;
+    padding:0;
+    margin:auto;
+    text-align: center;
+}
+
+.icon {
+    padding:10px 50px;
+    display:inline-block;
+}   
+footer{
+    text-align: center;
+    border-top:solid 1px gray;
+    padding:0.5rem 1rem;
+    margin-top:10px;
+    padding-bottom:0;
+    font-family: 'Raleway', sans-serif;
+}
+.gallery {
+    padding:3rem 0;
+}
+.Proj-title{
+    text-align: center;
+}
+.container h1 {
+    font-family:'Raleway', sans-serif;
+    /* font-weight:bold; */
+}
+.container h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+}
+.gallery .row{
+    margin:0 2rem;
+}
+.element-item{
+    padding:2rem;
+}
+
