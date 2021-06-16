@@ -2,6 +2,9 @@ a{
     text-decoration: none;
     color:black;
 }
+a:hover {
+    color:gray;
+}
 h1 h2 {
     font-family: 'Raleway', sans-serif;
 }
@@ -15,6 +18,7 @@ h3 h4 p{
     font-weight: 500;
 }
 .navbar {
+    text-decoration: none;
     padding: 1rem 5rem;
 }
 
@@ -27,6 +31,15 @@ h3 h4 p{
 } */
 .main {
     margin:0 10%;
+    font-family: 'Raleway', sans-serif;
+}
+.main .image{
+    padding:2rem;
+    height:25%;
+    width:auto;
+}
+.main p{
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 .main .intro .title-text{
     padding-bottom:10px;
@@ -49,8 +62,8 @@ h3 h4 p{
 .icons{
     list-style: none;
     padding:0;
-    margin:auto;
     text-align: center;
+    margin: 0.25rem auto;
 }
 
 .icon {
@@ -59,22 +72,20 @@ h3 h4 p{
 }   
 footer{
     text-align: center;
-    border-top:solid 1px gray;
-    padding:0.5rem 1rem;
-    margin-top:10px;
+    border-top:solid 1px #d0cfca;
+    padding:0.5rem;
+    margin:0 10% 0 10%;
     padding-bottom:0;
     font-family: 'Raleway', sans-serif;
 }
 .gallery {
     padding:3rem 0;
 }
-.Proj-title{
+.Page-title{
     text-align: center;
-}
-.container h1 {
     font-family:'Raleway', sans-serif;
-    /* font-weight:bold; */
 }
+
 .container h4{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 20px;
@@ -85,4 +96,43 @@ footer{
 .element-item{
     padding:2rem;
 }
+.img{
+    overflow:hidden;
+    opacity: 1;
+    position:relative;
+}
+.img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.descrip {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.img:hover img {
+    opacity: 0.3;
+  }
+.img:hover .descrip {
+    opacity: 1;
+  }
+.text {
+    color:gray;
+    font-family:'IBM Plex Sans', sans-serif;
+    background-color: #f8f9fa;
+    font-size: 16px;
+    text-align: left;
+    padding:5px;
+  }
+.img img{
+    transition:0.5s ease;
+}
+.img:hover img {
+    transform: scale(1.125);
+  }
 
