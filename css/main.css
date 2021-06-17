@@ -59,6 +59,9 @@ h3 h4 p{
     display:inline-block;
     margin-left: 3%;
 }
+.intro button a:hover{
+    color:antiquewhite;
+}
 .icons{
     list-style: none;
     padding:0;
